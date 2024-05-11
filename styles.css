@@ -14,23 +14,23 @@ body {
 .container1 {
   align-items: center;
   justify-content: center;
-  width: 270px;
-  background-image: linear-gradient(to bottom, hsl(213, 19%, 18%), #181f29 90%);
+  width: 250px;
+  background-color: hsl(213, 19%, 18%);
   border-radius: 10px;
   padding: 20px;
 }
 .image_star img {
   border-radius: 50%;
-  background-color: linear-gradient hsl(213, 19%, 18%);
+  background-color: hsl(216, 12%, 54%, 0.2);
   padding: 8px;
   width: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .container2 {
   display: none;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 250px;
   background-color: hsl(213, 19%, 18%);
   border-radius: 10px;
   padding: 20px;
@@ -49,9 +49,7 @@ body {
   color: hsl(25, 97%, 53%);
   /* Add any other styles as needed */
 }
-.illustration-image {
-  margin-bottom: 20px;
-}
+
 h3,
 h2 {
   color: white;
@@ -61,7 +59,7 @@ h2 {
 p {
   color: hsl(217, 12%, 63%);
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .rating {
   display: flex;
@@ -72,7 +70,7 @@ p {
 .num3,
 .num4,
 .num5 {
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(216, 12%, 54%, 0.2);
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -80,7 +78,7 @@ p {
   justify-content: center;
   display: flex;
   color: hsl(0, 0%, 100%, 0.4);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .submit-button {
   background-color: hsl(25, 97%, 53%);
