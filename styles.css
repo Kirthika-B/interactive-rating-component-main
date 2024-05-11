@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+}
+.container1 {
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.image_star img {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  padding: 8px;
+  width: 5%;
+  margin-bottom: 20px;
+}
+.container2 {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.message {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 100px;
+  margin-bottom: 20px;
+  padding: 8px;
+  display: inline-block;
+}
+
+.selectedItem {
+  color: hsl(25, 97%, 53%);
+  /* Add any other styles as needed */
+}
+.illustration-image {
+  margin-bottom: 20px;
+}
+h3,
+h2 {
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+.num1,
+.num2,
+.num3,
+.num4,
+.num5 {
+  background-color: hsl(213, 19%, 18%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: hsl(0, 0%, 100%, 0.4);
+  margin-bottom: 20px;
+}
+.submit-button {
+  background-color: hsl(25, 97%, 53%);
+
+  border-radius: 100px;
+  width: 100%;
+  padding: 15px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: wheat;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.num1:hover,
+.num2:hover,
+.num3:hover,
+.num4:hover,
+.num5:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.selected {
+  background-color: hsl(216, 12%, 54%); /* Selected background color */
+}
